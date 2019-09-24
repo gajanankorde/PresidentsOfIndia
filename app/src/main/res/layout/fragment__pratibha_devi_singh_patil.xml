@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gajanan.presidentsofindia.Fragment_PratibhaDeviSinghPatil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/img_pratibhaPatil"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/pratibhapatil"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:layout_gravity="center"
+            android:text="Term of Office: 25 July, 2007 to 25 July, 2012"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_pratibhaPatil"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:background="#000"
+            android:gravity="center"
+            android:text="Pratibha Devisingh Patil (born 19 December 1934) is an Indian politician who served as the 12th President of India from 2007 to 2012. A member of the Indian National Congress, Patil is the only woman to hold the office. She previously served as the Governor of Rajasthan from 2004 to 2007.\nPratibha Devisingh Patil is the daughter of Narayan Rao Patil.She was born on 19 December 1934 in the village of Nadgaon, in the Jalgaon district of Maharashtra, India. She was educated initially at R. R. Vidyalaya, Jalgaon, and subsequently was awarded a master's degree in Political Science and Economics by Mooljee Jetha College, Jalgaon (then under Pune University), and then a Bachelor of Law degree by Government Law College, Mumbai, affiliated to the University of Mumbai. Patil then began to practice law at the Jalgaon District Court, while also taking interest in social issues such as improving the conditions faced by Indian women.\nPatil married Devisingh Ransingh Shekhawat on 7 July 1965. The couple have a daughter and a son, Raosaheb Shekhawat, who is also a politician"
+            android:layout_weight="1.0"/>
+    </ScrollView>
+</LinearLayout>

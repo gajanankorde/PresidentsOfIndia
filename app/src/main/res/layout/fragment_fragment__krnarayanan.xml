@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gajanan.presidentsofindia.Fragment_PratibhaDeviSinghPatil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/img_kRNarayanan"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/krnarayan"/>
+
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:layout_gravity="center"
+            android:text="Term of Office: 25 July, 1997 to 25 July, 2002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_kRnarayanan"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:background="#000"
+            android:gravity="center"
+            android:text="Kocheril Raman Narayanan (27 October 1920 – 9 November 2005) was the tenth President of India and ninth Vice President of India.\nBorn in Perumthanam, Uzhavoor village, in the princely state of Travancore (present day Kottayam district, Kerala), and after a brief stint with journalism and then studying political science at the London School of Economics with the assistance of a scholarship, Narayanan began his career in India as a member of the Indian Foreign Service in the Nehru administration. He served as ambassador to Japan, United Kingdom, Thailand, Turkey, People's Republic of China and United States of America and was referred to by Nehru as 'the best diplomat of the country'. He entered politics at Indira Gandhi's request and won three successive general elections to the Lok Sabha and served as a Minister of State in the Union Cabinet under former Prime Minister Rajiv Gandhi. Elected as the ninth Vice President in 1992, Narayanan went on to become President in 1997. He was the first member of the Dalit community to hold the post.\nNarayanan is regarded as an independent and assertive President who set several precedents and enlarged the scope of the highest constitutional office. He described himself as a 'working President' who worked 'within the four corners of the Constitution'; something midway between an 'executive President' who has direct power and a 'rubber-stamp President' who endorses government decisions without question or deliberation.He used his discretionary powers as a President and deviated from convention and precedent in many situations, including – but not limited to – the appointment of the Prime Minister in a hung Parliament, in dismissing a state government and imposing President's rule there at the suggestion of the Union Cabinet, and during the Kargil conflict. He presided over the golden jubilee celebrations of Indian independence and in the country's general election of 1998, he became the first Indian President to vote when in office, setting another new precedent.\nA military conflict was developed in Kargil on the Line of Control (LoC) with Pakistan in May 1999. The Vajpayee government had lost a no-confidence vote in Lok Sabha earlier that year and the opposition failed to form the next government. The Lok Sabha had been dissolved and a caretaker government was in office. This caused a problem with democratic accountability, as every major government decision is expected to be discussed, deliberated and consented by the parliament. Narayanan suggested to Vajpayee that the Rajya Sabha be convened to discuss the conflict, as demanded by several opposition parties (citing the precedent of Nehru convening a parliamentary session on Vajpayee's demand during the Sino-Indian war in 1962 ) though there was no precedent of convening the Rajya Sabha in isolation during an interregnum. Further, Narayanan was briefed by the chiefs of the three arms of the Indian Armed Forces on the conduct of the conflict. His Republic day address next year began by paying homage to the soldiers who had died defending the nation."
+            android:layout_weight="1.0"/>
+    </ScrollView>
+</LinearLayout>

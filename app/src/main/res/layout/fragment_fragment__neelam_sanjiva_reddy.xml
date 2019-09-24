@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gajanan.presidentsofindia.Fragment_PratibhaDeviSinghPatil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/img_neelamSanjivaReddy"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/neelamsanjivareddy"/>
+
+        <TextView
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:layout_gravity="center"
+            android:text="Term of Office: 25 July, 1977 to 25 July, 1982"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_neelamSanjivaReddy"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:background="#000"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="Neelam Sanjiva Reddy (19 May 1913 – 1 June 1996) was the sixth President of India, serving from 1977 to 1982. Beginning a long political career with the Indian National Congress Party in the Indian independence movement, he went on to hold several key offices in independent India—as the first Chief Minister of Andhra Pradesh, a two-time Speaker of the Lok Sabha and a Union Minister—before becoming the youngest-ever Indian president.\nBorn in present-day Anantapur district, Andhra Pradesh, Reddy completed his schooling at Adayar and joined the Government Arts College at Anantapur. He quit to become an Indian independence activist and was jailed for participating in the Quit India Movement. He was elected to the Madras Legislative Assembly in 1946 as a Congress party representative. Reddy became the deputy chief minister of Andhra State in 1953 and the first Chief Minister of Andhra Pradesh in 1956. He was a union cabinet minister under Prime Ministers Lal Bahadur Shastri and Indira Gandhi from 1964 to 1967 and Lok Sabha Speaker from 1967 to 1969. He later retired from active politics but returned in 1975, responding to Jayaprakash Narayan's call for 'Total Revolution' against the Indira Gandhi Government.\nElected to Parliament in 1977 as a candidate of the Janata Party, Reddy was unanimously elected Speaker of the Sixth Lok Sabha and three months later was elected unopposed as President of India. As president, Reddy worked with Prime Ministers Morarji Desai, Charan Singh and Indira Gandhi. Reddy was succeeded by Giani Zail Singh in 1982 and he retired to his farm in Anantapur. He died in 1996 and his samadhi is at Kalpally Burial Ground, Bangalore. In 2013, the Government of Andhra Pradesh commemorated Reddy's birth centenary."
+            android:layout_weight="1.0"/>
+    </ScrollView>
+</LinearLayout>

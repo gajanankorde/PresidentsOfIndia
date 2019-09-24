@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gajanan.presidentsofindia.Fragment_PratibhaDeviSinghPatil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/img_shankarDayalSharma"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/shankardayalsharma"/>
+
+        <TextView
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:layout_gravity="center"
+            android:text="Term of Office: 25 July, 1992 to 25 July, 1997"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_shankarDayalSharma"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:background="#000"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="Shankar Dayal Sharma (19 August 1918 – 26 December 1999) was the ninth President of India, serving from 1992 to 1997. Prior to his presidency, Sharma had been the eighth Vice President of India, serving under R. Venkataraman. He was also the Chief Minister (1952–1956) of Bhopal State, and Cabinet Minister (1956–1967), holding the portfolios of Education, Law, Public Works, Industry and Commerce, National Resources and Separate Revenue. He was the President of the Indian National Congress in 1972–1974 and returned to the Government as Union Minister for Communications from 1974 to 1977.\n The International Bar Association presented Sharma with the 'Living Legends of Law Award of Recognition' for his outstanding contribution to the legal profession internationally and for commitment to the rule of law.\nSharma was born in the city of Bhopal, Madhya Pradesh. He completed initial schooling from Government Hamidiya Boys school Bhopal and educated at St. John's College, Agra College, Punjab University and Lucknow University.\nDr. Shankar Dayal Sharma Gold Medal is awarded in all prestigious Indian universities. This award was constituted, in year 1994, by endowments received from Shankar Dayal Sharma. This medal is awarded to a graduating student adjudged to be the best in terms of general proficiency including character, conduct and excellence in academic performance, extra-curricular activities and social service."
+            android:layout_weight="1.0"/>
+    </ScrollView>
+</LinearLayout>

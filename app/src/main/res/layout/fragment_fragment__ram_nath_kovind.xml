@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gajanan.presidentsofindia.Fragment_PratibhaDeviSinghPatil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/img_ramNathKovind"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ramnathkovind"/>
+
+        <TextView
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:layout_gravity="center"
+            android:text="Term of Office: 25 July 2017 to - "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_ramNathKovind"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:background="#000"
+            android:gravity="center"
+            android:text="Ram Nath Kovind (born 1 October 1945) is an Indian politician currently serving as the 14th President of India, in office since 25 July 2017. Previously he had served as the Governor of Bihar from 2015 to 2017 and was a Member of Parliament, Rajya Sabha from 1994 to 2006. Kovind was nominated as a presidential candidate by the ruling NDA coalition and won the 2017 presidential election.\nBefore entering politics, he was a lawyer for 16 years and practiced in the Delhi High Court and the Supreme Court until 1993.\nRam Nath Kovind was born on 1 October 1945, in Paraunkh village in the Kanpur Dehat district of Uttar Pradesh, as the youngest of five brothers and two sisters. His father Maikulal Kovind ran a small shop. Kovind was born in a mud hut, which eventually collapsed. He was only five when his mother died of burns when their thatched dwelling caught fire. Kovind later donated the land to the community.Kovind was born into the Kori caste, considered underprivileged even among the Dalits, once known as 'untouchables'.\nAfter his elementary school education, he had to walk each day to Kanpur village, 8 km away, to attend junior school, as nobody in the village had a bicycle. He holds a bachelor's degree in commerce and an LLB from DAV College (affiliated with Kanpur University)."
+            android:layout_weight="1.0"/>
+    </ScrollView>
+</LinearLayout>

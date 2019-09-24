@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.gajanan.presidentsofindia.Fragment_APJAbdulKalam">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/img_zakirHussain"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/zakirhussain"/>
+
+        <TextView
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:layout_gravity="center"
+            android:text="Term of Office: 13 May, 1967 to 3 May, 1969"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_zakirHussain"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:background="#000"
+            android:gravity="center"
+            android:text="Zakir Husain Khan (8 February 1897 – 3 May 1969) was the third President of India, from 13 May 1967 until his death on 3 May 1969.\n He previously served as Governor of Bihar from 1957 to 1962 and as Vice President of India from 1962 to 1967. He was also the co-founder of Jamia Milia Islamia, serving as its Vice-chancellor from 1928. Under Husain, Jamia became closely associated with the Indian freedom movement. He was awarded the Bharat Ratna, India's highest civilian honour, in 1963."
+            android:layout_weight="1.0"/>
+    </ScrollView>
+</LinearLayout>

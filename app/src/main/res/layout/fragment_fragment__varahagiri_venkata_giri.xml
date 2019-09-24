@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gajanan.presidentsofindia.Fragment_PratibhaDeviSinghPatil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/img_vvGiri"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/vvgiri"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:layout_gravity="center"
+            android:text="Term of Office: 3 May, 1969 to 20 July, 1969 and\n 24 August, 1969 to 24 August,1974"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_vvGiri"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:background="#000"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="Varahagiri Venkata Giri (10 August 1894 – 24 June 1980), commonly known as V. V. Giri, was the fourth president of India from 24 August 1969 to 24 August 1974.\n As president, Giri was the only person to be elected as an independent candidate. He was succeeded by Fakhruddin Ali Ahmed as president in 1974.After the end of his full term, Giri was honoured by the Government of India with the Bharat Ratna in 1975. Giri died on 24 June 1980. His great grandson V. Giri Shankar is an Advocate of the Madras High Court, Chennai."
+            android:layout_weight="1.0"/>
+    </ScrollView>
+</LinearLayout>

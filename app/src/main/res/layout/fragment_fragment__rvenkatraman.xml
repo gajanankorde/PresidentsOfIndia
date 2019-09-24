@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gajanan.presidentsofindia.Fragment_PratibhaDeviSinghPatil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/img_rVenkatraman"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/rvenkatraman"/>
+
+        <TextView
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:layout_gravity="center"
+            android:text="Term of Office: 25 July, 1987 to 25 July, 1992"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_rVenkatraman"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:background="#000"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="Ramaswamy Venkataraman (4 December 1910 – 27 January 2009) was an Indian lawyer, Indian independence activist and politician who served as a Union Minister and as the eighth President of India.\nVenkataraman was born in Rajamadam village in Tanjore district, Madras Presidency. He studied law and practised in the Madras High Court and the Supreme Court of India. In his young age, he was an activist of the Indian independence movement and participated in the Quit India Movement. He was appointed as the member of the Constituent Assembly and the provisional cabinet. He was elected to the Lok Sabha four times and served as Union Finance Minister and Defence Minister. In 1984, he was elected as the seventh Vice President of India and in 1987, he became the 8th President of India and served from 1987 to 1992. He also served as a State minister under K. Kamaraj and M. Bhaktavatsalam." android:layout_weight="1.0"/>
+    </ScrollView>
+</LinearLayout>

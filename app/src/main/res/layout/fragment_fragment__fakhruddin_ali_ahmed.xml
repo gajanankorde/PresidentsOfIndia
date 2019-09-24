@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gajanan.presidentsofindia.Fragment_PratibhaDeviSinghPatil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/img_fakhruddinAliAhmed"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/fakhruddinaliahmed"/>
+
+        <TextView
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:layout_gravity="center"
+            android:text="Term of Office: 24 August, 1974 to 11 February, 1977"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_fakhruddinAliAhmed"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:background="#000"
+            android:gravity="center"
+            android:text="Fakhruddin Ali Ahmed (13 May 1905 – 11 February 1977) was the fifth President of India from 1974 to 1977 and also the 2nd President of India to die in office \n Chosen for the presidency by the Prime Minister, Indira Gandhi, in 1974, and on 20 August 1974, he became the second Muslim to be elected President of India. He is known to have issued the proclamation of emergency by signing the papers at midnight after a meeting with Indira Gandhi the same day.[7] He used his constitutional authority as head of state to allow him to rule by decree once the Emergency in India was proclaimed in 1975"
+            android:layout_weight="1.0"/>
+    </ScrollView>
+</LinearLayout>

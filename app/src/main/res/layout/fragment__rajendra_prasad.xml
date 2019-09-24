@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gajanan.presidentsofindia.Fragment_PratibhaDeviSinghPatil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/img_rajendraPrasad"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/rajendraprasad"/>
+        <TextView
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:layout_gravity="center"
+            android:text="Term of Office: 26 January, 1950 to 13 May, 1962"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <!--
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/img_rajendraPrasad"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/rajendraprasad"/>
+    -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_rajendraPrasad"
+            android:textSize="18sp"
+            android:background="#000"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="Rajendra Prasad (3 December 1884 – 28 February 1963) was the first President of India, in office from 1950 to 1962.He was an Indian political leader and lawyer by training. Prasad joined the Indian National Congress during the Indian Independence Movement and became a major leader from the region of Bihar. A supporter of Mahatma Gandhi, Prasad was imprisoned by British authorities during the Salt Satyagraha of 1931 and the Quit India movement of 1942. After the 1946 elections, Prasad served as Minister of Food and Agriculture in the central government. Upon independence in 1947, Prasad was elected as President of the Constituent Assembly of India, which prepared the Constitution of India and served as its provisional parliament.\n When India became a republic in 1950, Prasad was elected its first president by the Constituent Assembly. Following the general election of 1951, he was elected president by the electoral college of the first Parliament of India and its state legislatures. As president, Prasad established a tradition of non-partisanship and independence for the office-bearer, and retired from Congress party politics. Although a ceremonial head of state, Prasad encouraged the development of education in India and advised the Nehru government on several occasions. In 1957, Prasad was re-elected to the presidency, becoming the only president to serve two full terms."
+            android:layout_weight="1.0"/>
+
+    </ScrollView>
+</LinearLayout>
